@@ -1,5 +1,6 @@
 {
   "name": "narcissus",
+  "description": "Inline styles, sane",
   "version": "1.0.0",
   "main": "build/index.js",
   "edusightMain": "src/index.js",
