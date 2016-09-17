@@ -2,6 +2,8 @@
 
 ## Inline styles, sane
 
+[![npm](https://img.shields.io/npm/v/narcissus.svg?style=flat-square)](https://www.npmjs.com/package/narcissus)
+
 Narcissus is inline style sheets in Javascript, but sane. It borrows and steals many concepts from [aphrodite](https://github.com/Khan/aphrodite), but extends certain ideas and simplifies the codebase.
 
 Quick feature list:
