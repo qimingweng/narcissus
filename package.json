@@ -1,0 +1,18 @@
+{
+  "name": "narcissus",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "edusightMain": "src/index.js",
+  "scripts": {
+    "build": "rm -rf ./build && babel src --out-dir build --presets es2015",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "inline-style-prefixer": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2"
+  },
+  "private": false
+}
