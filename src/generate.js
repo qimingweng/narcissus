@@ -3,7 +3,7 @@
  * Let's not forget that
  */
 
-import prefix from 'inline-style-prefixer/static';
+import { prefix } from 'inline-style-prefixer';
 import isUnitlessNumber from './isUnitlessNumber';
 import kebabifyStyleName from './kebabifyStyleName';
 
